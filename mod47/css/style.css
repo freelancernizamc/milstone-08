@@ -63,3 +63,11 @@ nav ul li a:hover {
     color: green;
     text-align: center;
 }
+
+.quiz h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    color: aqua;
+}
