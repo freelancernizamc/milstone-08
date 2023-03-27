@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milstone-08: Module-49</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Milstone-08<br><span>Module-49</span></h1>
+            <ul>
+                <li><a href="../mod46.html">Module-46</a></li>
+                <li><a href="../mod47/mod47.html">Module-47</a></li>
+                <li><a href="../mod48/mod48.html">Module-48</a></li>
+                <li><a href="mod47.html">Module-50</a></li>
+                <li><a href="mod47.html">Module-51</a></li>
+                <li><a href="mod47.html">Module-52</a></li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div>
+                <h3>Welcome to</h3>
+                <h1>Milstone-08 Module-49 <br>Practice Session</h1>
+                <h2>I am Nizam</h2>
+                <p>Student of Batch 07</p>
+            </div>
+            <diV>
+                <img id="banner-img" src="/images/nizam.png">
+            </diV>
+        </div>
+    </header>
+    <main>
+        <h1 style="font-size:50px;font-weight: bold;color:crimson;text-align: center;">Module-49 Practice Session</h1>
+        <section>
+            <h2 class="video">Video 49-1 Module Introduction npm overview</h2>
+            <h2 class="video1">Video 49-2 What is JSX, React Component, babel transpiler</h2>
+            <h2 class="video">Video 49-3 Components and how props works, unidirectional data flow
+            </h2>
+            <h2 class="video1">Video 49-4 (advanced) How states works, asynchronous, console state</h2>
+            <h2 class="video">Video 49-5 How React Hook works, send state via props , props vs state</h2>
+            <h2 class="video1">Video 49-6 What is React, when to use it, react vs angular vs vue</h2>
+            <h2 class="video">Video 49-7 virtual dom, diff algorithm, Component lifecycle and rerender </h2>
+            <h2 class="video1">Video 49-8 Module Summary, recap and interview questions</h2>
+        </section>
+        <section>
+            <h1 class="quiz">QUIZ</h1>
+            <h2 class="video">Q1: Which one is true?<br>
+                Ans: React uses one-way data-binding</h2>
+            <h2 class="video1">Q2: What is npm?<br>
+                Ans: Node Package Manager</h2>
+            <h2 class="video">Q3: What is a Stateful component?<br>
+                Ans: A component that has state</h2>
+            <h2 class="video1">Q4: Which one is not true?<br>
+                Ans: React elements are mutable. Once you create an element, you can change its children or Attributes
+            </h2>
+            <h2 class="video">Q5: Which algorithm React is used to compare dom?<br>
+                Ans: Diff Algorithm</h2>
+            <h2 class="video1">Q6: Which one is not true?<br>
+                Ans: A key is a special object you need to include when creating a single element.</h2>
+            <h2 class="video1">Q7: What is Babel?(search on google)<br>
+                Ans: JavaScript Compiler</h2>
+            <h2 class="video">Q8: In a company starting salary is 20000? And based on performance it may change? Now in
+                terms of react what will you do? (is it simple than you think)<br>
+                Ans: const[salary, setSalary] = useState(20000);</h2>
+            <h2 class="video1">Q9: Which one is true for React?<br>
+                Ans: React uses virtual dom to make rerender efficient.</h2>
+            <h1 class="quiz">Module 49.5</h1>
+            <h2 class="video">Video 49_5-1 Module Introduction ES6 Modules simple import, export</h2>
+            <h2 class="video1">Video 49_5-2 ES6 Modules, import default, relative path</h2>
+            <h2 class="video">Video 49_5-3 Create and Load Fake data, json generator, online api </h2>
+            <h2 class="video1">Video 49_5-4 How to Create Event handler with parameters</h2>
+            <h2 class="video">Video 49_5-5 Intro to Local storage to store data just one item</h2>
+            <h2 class="video1">Video 49_5-5 Intro to Local storage to store data just one item</h2>
+            <h2 class="video">Video 49_5-7 Remove data to the local storage and delete shopping cart</h2>
+            <h2 class="video1">Video 49_5-8 Module Summary and simple intro to array reduce</h2>
+
+        </section>
+
+
+
+
+
+
+    </main>
+    <script>
+        const images2 = [
+            '/images/nizam.png',
+            '/images/nizam2.png',
+            '/images/Nizam bd.jpg',
+
+        ]
+        let imgIndex2 = 0;
+        const imgE12 = document.getElementById('banner-img');
+        setInterval(() => {
+            if (imgIndex2 === images2.length) {
+                imgIndex2 = 0;
+            }
+            const imgUrl2 = images2[imgIndex2];
+            console.log(imgIndex2, imgUrl2);
+
+            imgE12.setAttribute('src', imgUrl2)
+            imgIndex2++;
+        }, 1000)
+    </script>
+</body>
+
+</html>

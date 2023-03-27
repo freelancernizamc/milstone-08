@@ -1,0 +1,81 @@
+header {
+    width: 100%;
+    background-color: black;
+    color: aqua;
+}
+
+nav {
+    width: 100%;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aqua;
+
+}
+
+nav h1 {
+    font-size: 30px;
+}
+
+nav span {
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: aqua;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 35px;
+    color: yellow;
+}
+
+.banner img {
+    border-radius: 50%;
+}
+
+.video {
+    font-size: 30px;
+    font-weight: bold;
+    color: magenta;
+    text-align: center;
+}
+
+.video1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+
+.quiz {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    color: aqua;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milstone-08: Module-50</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="bg-slate-900 md:w-full">
+        <nav class="flex justify-between items-center bg-black text-white">
+            <div class="flex bg-emerald-100 rounded-3xl ml-5">
+                <img class="w-10 rounded-full" id="nav-img" src="images/nizam.png">
+                <div>
+                    <h1 class="md:text-3xl font-bold text-yellow-900">MILSTONE<span
+                            class="text-pink-900 md:tex-7xl">-08</span></h1>
+                    <h1 class="md:text-3xl font-bold text-pink-900">MODULE<span
+                            class="text-indigo-900 md:tex-7xl">-50</span></h1>
+                </div>
+            </div>
+            <ul class="md:flex md:mr-20 font-bold">
+                <li class="pr-5 hover:text-pink-900"><a href="index.html">Home</a></li>
+                <li class="pr-5 hover:text-pink-900"><a href="mod46.html">Module-46</a></li>
+                <li class="pr-5 hover:text-pink-900"><a href="./mod47/mod47.html">Module-47</a></li>
+                <li class="pr-5 hover:text-pink-900"><a href="./mod48/mod48.html">Module-48</a></li>
+                <li class="pr-5 hover:text-pink-900"><a href="./mod49/mod49.html">Module-49</a></li>
+                <li class="pr-5 hover:text-pink-900"><a href="mod51.html">Module-51</a></li>
+                <li class="pr-5 hover:text-pink-900"><a href="mod52.html">Module-52</a></li>
+            </ul>
+        </nav>
+        <div class="flex justify-around items-center bg-[#070723] text-[#E6AAF8]">
+            <div class="text-right rounded-pill p-10">
+                <h1 class="md:text-7xl text-rose-700">Assalamualaikum!</h1>
+                <h1 class="md:text-7xl text-yellow-300">I am Nizam</h1>
+                <h1 class="md:text-3xl text-info">Student of Batch 07</h1>
+                <button class="btn btn-outline btn-success mt-5">Contact Me</button>
+            </div>
+            <div>
+                <img class="rounded-full" id="fotter-img" src="images/nizam.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1 class="text-7xl text-center text-yellow-300 bg-purple-900">Module 50 Practice</h1><br>
+        <section class="mx-20">
+            <h2 class="text-3xl text-green-900 text-center font-bold">Video 50-1 Module Introduction, site resources,
+                figma</h2>
+            <h2 class="text-3xl text-rose-900 text-center font-bold">Video 50-2 Header Component, logo position, set nav
+                menu
+            </h2>
+            <h2 class="text-3xl text-blue-900 text-center font-bold">Video 50-3 Shop Component Layout, load data and set
+                state</h2>
+            <h2 class="text-3xl text-pink-900 text-center font-bold">Video 50-4 Product Component, component layout,
+                display data
+            </h2>
+            <h2 class="text-3xl text-green-900 text-center font-bold">Video 50-5 Style Product Cart, style debug and
+                button position</h2>
+            <h2 class="text-3xl text-pink-500 text-center font-bold">Video 50-6 (advanced) set eventhandler, pass
+                eventhandler to child
+            </h2>
+            <h2 class="text-3xl text-blue-500 text-center font-bold">Video 50-7 (advanced) Cart state setup,
+                react-fontawesome, display icon</h2>
+            <h2 class="text-3xl text-rose-500 text-center font-bold">Video 50-8 Module summary and deploy to surge or
+                netlify
+            </h2>
+        </section>
+        <section>
+            <h1 class="text-7xl text-center text-yellow-300 bg-purple-900">QUIZ</h1>
+            <h2 class="text-3xl text-blue-900 text-center font-bold">Q1: What is the purpose of the key prop used in
+                react?<br>
+                Ans: It can efficiently identify the changes in virtual dom</h2>
+            <h2 class="text-3xl text-rose-900 text-center font-bold">Q2: How will you import useState in React?<br>
+                Ans: import{useState} from 'react'</h2>
+            <h2 class="text-3xl text-green-700 text-center font-bold">Q3: const [count, setCount] =useState(0)
+                What should you do to increase the count state?<br>
+                Ans: setCount(count+1)</h2>
+            <h2 class="text-3xl text-pink-700 text-center font-bold">Q4: Can we pass a function through props?<br>
+                Ans: Yes</h2>
+            <h2 class="text-3xl text-blue-700 text-center font-bold">Q5: If A and B are siblings of components that
+                share a common state, where should you declare the state?<br>
+                Ans: In their parent Component</h2>
+            <h2 class="text-3xl text-rose-700 text-center font-bold">Q6: What does the package.json file do? (Search on
+                Google Mama)<br>
+                Ans: It records important metadata about a project</h2>
+            <h2 class="text-3xl text-green-700 text-center font-bold">Q7: Which is the correct way to call the function
+                inside a button in React?
+
+                const handleAdd = ( item ) => {
+                console.log(item)
+                }<br>
+                Ans: &lt;
+                button onClick={() => handleAdd(item)}&gt;
+                &lt;
+                /button&gt;
+            </h2>
+            <h2 class="text-3xl text-green-700 text-center font-bold">Q8: How will you set a clickhandler on a Button
+                using React?
+
+                &lt;button ________= {handleClick}&gt;Click me&lt;/button&gt;<br>
+                Ans: onClick
+            </h2>
+            <h2 class="text-3xl text-rose-700 text-center font-bold">Q9: Where can we call react hooks?<br>
+                Ans: At the top level of React function.
+            </h2>
+            <h2 class="text-3xl text-blue-700 text-center font-bold">Q10:What is react?<br>
+                Ans: A JavaScript Library
+            </h2>
+            <h1 class="text-7xl text-center text-yellow-300 bg-purple-900">The End</h1>
+        </section>
+    </main>
+    <footer class="footer grid-rows-1 p-10 bg-neutral text-neutral-content">
+        <div>
+            <img class="img-fluid w-[200px] rounded-full" src="images/nizam2.png">
+            <h1 class="text-3xl text-yellow-300">Md Nizam Uddin</h1>
+            <h1>Batch 07</h1>
+        </div>
+        <div>
+            <span class="footer-title text-2xl text-yellow-300">My Projects</span>
+            <a class="link link-hover" href="https://freelancernizamc.github.io/digital-agency/">Digital Agency</a>
+            <a class="link link-hover" href="https://freelancernizamc.github.io/donate-today/">Donate Today</a>
+            <a class="link link-hover" href="https://freelancernizamc.github.io/convension-center/">Convension
+                Center</a>
+            <a class="link link-hover" href="https://reveal-bs.netlify.app/">Reveal</a>
+            <a class="link link-hover" href="https://freelancernizamc.github.io/jakanaka-project/">Jakanaka Projects</a>
+            <a class="link link-hover" href="https://freelancernizamc.github.io/penguins-fashion/">Penguine Fashion</a>
+            <a class="link link-hover" href="https://freelancernizamc.github.io/influencer-products/">Influencer
+                Products</a>
+        </div>
+        <div>
+            <span class="footer-title text-2xl text-yellow-300">Milstone</span>
+            <a class="link link-hover" href="https://freelancernizamc.github.io/milstone-01/">Milstone 01</a>
+            <a class="link link-hover" href="https://milstone-2.netlify.app/">Milstone 02</a>
+            <a class="link link-hover" href="https://freelancernizamc.github.io/milstone-03/index.html">Milstone 03</a>
+            <a class="link link-hover" href="https://freelancernizamc.github.io/milstone-04/">Milstone 04</a>
+            <a class="link link-hover" href="https://milstone-05.netlify.app/">Milstone 05</a>
+            <a class="link link-hover" href="https://freelancernizamc.github.io/milstone-06/">Milstone 06</a>
+            <a class="link link-hover" href="https://freelancernizamc.github.io/milstone-07/">Milstone 07</a>
+        </div>
+        <div>
+            <span class="footer-title text-2xl text-yellow-300">Module</span>
+            <a class="link link-hover" href="mod39.html">Module 39</a>
+            <a class="link link-hover" href="mod40.html">Module 40</a>
+            <a class="link link-hover" href="mod41.html">Module 41</a>
+            <a class="link link-hover" href="mod42.html">Module 42</a>
+            <a class="link link-hover" href="mod43.html">Module 43</a>
+            <a class="link link-hover" href="mod44.html">Module 44</a>
+            <a class="link link-hover" href="mod45.html">Module 45</a>
+        </div>
+        <div>
+            <span class="footer-title text-2xl text-yellow-300">Assignment</span>
+            <a class="link link-hover" href="https://freelancernizamc.github.io/assignment-1/">Assignment 01</a>
+            <a class="link link-hover" href="https://freelancernizamc.github.io/assignment-2/">Assignment 02</a>
+            <a class="link link-hover" href="https://assignment-03-bynizam.netlify.app/">Assignment 03</a>
+            <a class="link link-hover" href="">Assignment 04</a>
+            <a class="link link-hover" href="https://assignment-5by-nizam.netlify.app/">Assignment 05</a>
+            <a class="link link-hover" href="https://assignment-06-bynizam.netlify.app/">Assignment 06</a>
+            <a class="link link-hover" href="">Assignment 07</a>
+        </div>
+        <div>
+            <span class="footer-title text-2xl text-yellow-300">My Projects</span>
+            <a class="link link-hover">Animated Website</a>
+            <a class="link link-hover">Bootstrap Website</a>
+            <a class="link link-hover">Nice Theme</a>
+            <a class="link link-hover">Responsive Website</a>
+            <a class="link link-hover">Stylish Theme</a>
+            <a class="link link-hover">My Portfolio</a>
+            <a class="link link-hover">Bikerz Zone</a>
+        </div>
+        <div>
+            <span class="footer-title text-2xl text-yellow-300">My Projects</span>
+            <a class="link link-hover">My Shopping Cart</a>
+            <a class="link link-hover" href="https://tea-house-by-n.netlify.app/">Tea House</a>
+            <a class="link link-hover">Projects with API</a>
+            <a class="link link-hover">My Bank</a>
+            <a class="link link-hover">Mobile Hunter</a>
+            <a class="link link-hover">News World</a>
+            <a class="link link-hover" href="https://ema-john-shop-byreact.netlify.app/">Ema-John-shop</a>
+        </div>
+    </footer>
+    <h6 class="text-center bg-neutral text-neutral-content">Copyright &copy;2023 Allright Reserved</h6>
+</body>
+
+</html>
